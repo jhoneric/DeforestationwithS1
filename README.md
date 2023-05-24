@@ -9,25 +9,7 @@ but it does not prove any improvement on the deforestation events detected. It w
 
 ***https://run.unl.pt/handle/10362/150968***
 
-# Workflow Explanation
+# General Methodolody
 
-The data comes from the **CAMERA DE LISBOA**, they have in their website values that monitor the envoronment in Lisbon city. They have almost 80 sensors across the city.
-
-![image](https://user-images.githubusercontent.com/38009811/155448892-0ef72785-3505-460a-8128-0f76debf86a7.png)
-
-The have a url endpoint where community can access to the almost real time data its updated each hour.
-
-![image](https://user-images.githubusercontent.com/38009811/155449369-8db96a01-2ff5-4102-bce8-daa491a310a4.png)
-
-Using the ETL module we storage information that we extract from that url in a table in a postgres database.
-
-Once the data in in the table, there is a Trigger which runs a database function that performs a spatial intersection in order capture the Fragesia's name and station's address from two spatial tables in the same database.
-
-![image](https://user-images.githubusercontent.com/38009811/155449985-908aa5b5-db96-4704-b44e-064c153309cb.png)
-
-The ETL module runs automatically every day without user supervision, using the task scheduler tool in windows. The lisbon.bat file has the configuration to run the ETL module
-
-Using a webpage users run the scripts in the backend in charge to create the pdf file with the information about the average values for Temprature, Noise and Humidity in Lisbon.
-the first part has a map with idw interpolation values for the time period selected and the second part is a bar graph with the average for whole lisbon in each day during the time period selected.
-
-
+# Notebooks
+There are 3 notebboks, one for running the code to detect deforestation using Cumulative Sum method, other for running the code to detect deforestation using Log-ratio method and another for capturing graphs and charts.
