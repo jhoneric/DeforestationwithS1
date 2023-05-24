@@ -7,7 +7,7 @@ Despite nowadays there are many optical sensors out there, meteorological condit
 have free access to SAR data with high temporal resolution. Therefore, this study explores the use of SAR data for monitoring deforestation in places where the precipitation rate is too high. A time-series approach is used as framework to detect forest disturbances; the work tests if performing a combination of the Sentinel-1 bands through a modified version from the RFDI gets better results than the original bands; two methods for detecting changes along the time focus on deforestation are compared. The results show that VH band is the best input with similar overall accuracy with the two methods, around 80%, the mRFDI showed acceptable results
 but it does not prove any improvement on the deforestation events detected. It was concluded that with a workflow optimization, it can be used to overcome the optical images problem to monitor deforestation events.
 
-*** https://run.unl.pt/handle/10362/150968 ***
+***https://run.unl.pt/handle/10362/150968***
 
 # Workflow Explanation
 
