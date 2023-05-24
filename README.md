@@ -11,5 +11,7 @@ but it does not prove any improvement on the deforestation events detected. It w
 
 # General Methodolody
 
+![general methodology](https://github.com/jhoneric/DeforestationwithS1/assets/38009811/30763bc8-6a6b-42c8-a1e3-b855560eacf9)
+
 # Notebooks
 There are 3 notebboks, one for running the code to detect deforestation using Cumulative Sum method, other for running the code to detect deforestation using Log-ratio method and another for capturing graphs and charts.
